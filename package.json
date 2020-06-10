@@ -1,0 +1,35 @@
+{
+  "name": "image-compressor",
+  "version": "1.0.0",
+  "description": "A GUI for image compression",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/q13/image-compressor.git"
+  },
+  "keywords": [
+    "image",
+    "compression",
+    "gui"
+  ],
+  "author": "13",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/q13/image-compressor/issues"
+  },
+  "homepage": "https://github.com/q13/image-compressor#readme",
+  "dependencies": {
+    "es-module-shims": "^0.4.6",
+    "fs-extra": "^8.1.0",
+    "klaw-sync": "^6.0.0",
+    "lit-element": "^2.2.1",
+    "memoizeasync": "^1.1.0",
+    "pngjs": "^3.4.0",
+    "pnotify": "^4.0.0",
+    "tinify": "^1.6.0-beta.2"
+  },
+  "chromium-args": "--enable-built-in-module-infra"
+}
